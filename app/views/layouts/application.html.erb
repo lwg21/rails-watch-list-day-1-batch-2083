@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <!-- This navbar will be present on every page -->
+    <nav class="py-3 mb-2 border-bottom">
+      <%= link_to "My lists", lists_path %>
+    </nav>
+
+    <!-- View gets inserted here --->
     <%= yield %>
   </body>
 </html>
